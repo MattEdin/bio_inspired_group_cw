@@ -22,7 +22,7 @@ def sigmoid(x):
 
 # for hidden layer
 def relu(x):
-  return 1/(1 + np.exp(-x))
+  return np.maximum(0, x)
 
 # the purose of this function is to return 1 if x>0 and 0 if x<=0
 def relu_derivitive(x):
