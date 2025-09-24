@@ -27,3 +27,12 @@ def relu(x):
 # the purose of this function is to return 1 if x>0 and 0 if x<=0
 def relu_derivitive(x):
   return (x>0).astype(int)
+
+# tangent activation function
+def tanh(x):
+  return np.tanh(x)
+
+# linear activation function
+def linear(x):
+  return x
+
